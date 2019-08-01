@@ -6,16 +6,16 @@
   "X" => "-..-", "Y" => "-.--", "Z" => "--.."}
 
 
-   print "What is your word? "
-   answer = gets.chomp.to_s.upcase
-   array = Array.new
-   array_transformed = array.push(answer.split(//)).flatten!  #This .flatten thing REALLLY....
+  print "What is your word? "
+  answer = gets.chomp.to_s.upcase
+  array = Array.new
+  array_transformed = array.push(answer.split(//)).flatten!  #This .flatten thing REALLLY....
 
   array_transformed.each do |l|
     puts morse[l]
   end
     
-    print "\tYou want me to 
+  print "\tYou want me to 
   convert input in Morse 
   code back into English? (y/n): "
   
