@@ -26,12 +26,11 @@ puts letters_morse
   confirm = gets.chomp.upcase
 
   if confirm == "Y"
-    # puts array2.inspect
     puts array_answer.join("").capitalize
   else
     puts "Bye!"
   end
-
+ # puts array2.inspect
 
 
 
