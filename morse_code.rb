@@ -119,3 +119,15 @@ puts letters_morse
 # #   end
 
 # # end
+# morse_array.each do |i|
+#   puts morse_array[i]
+# end
+
+
+
+# for answer in lettersa
+#   if answer == A
+#   puts "Re-doing when x = " + x.to_s
+#   end
+
+# end
