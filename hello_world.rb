@@ -13,11 +13,15 @@ def hello_world
  puts "Hello World!"
  print "What is your name? "
  name = gets.chomp.capitalize
- puts "***** \n*Hey* \n*#{name}*\n*****"
+ puts "*" * "#{name.length}".to_i + "**"
+ puts "*Hey" + " " * "#{name[0..-4].length}\n".to_i + "*"
+ puts "*#{name}*\n"
+ puts "*" * "#{name.length}".to_i + "**"
 end
 
 time = Time.new
 
 hello_world
 puts time
+
 
