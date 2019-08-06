@@ -1,5 +1,7 @@
 
 
+
+
 letters = "A".."Z"
 letters = letters.to_a
 
@@ -10,7 +12,7 @@ morse_letters = [".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....",
 ] 
 
 letters_morse = [letters, morse_letters].transpose.to_h
-puts letters_morse
+
 
    print "What is your word? "
    answer = gets.chomp.to_s.upcase
